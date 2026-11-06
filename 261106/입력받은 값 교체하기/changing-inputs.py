@@ -1,0 +1,5 @@
+ar = input()
+ar1 = ar.split()
+a = int(ar1[0])
+b = int(ar1[1])
+print(b,a,sep=" ")
