@@ -1,0 +1,6 @@
+a = input()
+a1 = a.split("-")
+yyyy = int(a1[2])
+dd = int(a1[1])
+mm = int(a1[0])
+print(yyyy,mm,dd,sep=".")
