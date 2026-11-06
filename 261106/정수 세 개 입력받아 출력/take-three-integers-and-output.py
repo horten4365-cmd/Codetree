@@ -1,0 +1,6 @@
+a = input()
+a1 = int(input())
+b = a.split()
+c = int(b[0])
+d = int(b[1])
+print(c,d,a1,sep=" ")
