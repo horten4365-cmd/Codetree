@@ -1,0 +1,5 @@
+arr = input()
+ar = arr.split()
+a = int(ar[0])
+b = int(ar[1])
+print(f"{(a+b)/(a-b):.2f}")
