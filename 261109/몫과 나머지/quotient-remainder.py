@@ -1,0 +1,5 @@
+a = input()
+b = a.split()
+a1 = int(b[0])
+b1 = int(b[1])
+print(int(a1//b1),int(a1%b1),sep="...")
