@@ -1,0 +1,8 @@
+P = input()
+p = P.split()
+a = int(p[0])
+b = int(p[1])
+c = int(p[2])
+print(a+b+c)
+print((a+b+c)//3)
+print((a+b+c)-((a+b+c)//3))
