@@ -1,7 +1,10 @@
 N = int(input())
 
-for i in range(1, N + 1):
-    left_stars = '*' * (N - i + 1)
-    spaces = ' ' * (2 * (i - 1))
-    right_stars = '*' * (N - i + 1)
-    print(left_stars + spaces + right_stars)
+for i in range(N):
+    for j in range(N-i):
+        print('*', end = "")
+    for j in range(2*i):
+        print(" ", end = "")
+    for j in range(N-i):
+        print('*', end = "")
+    print()
